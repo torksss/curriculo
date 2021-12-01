@@ -1,0 +1,60 @@
+body {
+    background-color: #848FA5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    text-align: center;
+    background-color: #171A21;
+    font-weight: bold;
+}
+
+.containerHeader a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.containerHeader nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 2em;
+}
+
+.containerHeader nav ul li{
+    padding: 0 1em;
+}
+
+.containerAboutme {
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textoAboutme{
+    width: auto;
+    height: 400px;
+}
+
+.textoAboutme h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+
+.textoAboutme p {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 6.5em;
+}
+
+.containerAboutme img {
+    display: flex;
+    height: 400px;
+    padding: 0 9em 0 0 ;
+}
