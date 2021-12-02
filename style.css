@@ -8,13 +8,13 @@ body {
     justify-content:flex-end;
     width: 100%;
     text-align: center;
-    background-color: #0A66C2;
+    background-color: #92c0db;
     font-weight: bold;
 }
 
 .containerHeader a {
     text-decoration: none;
-    color: #FFFFFF;
+    color:black;
 }
 
 .containerHeader nav ul{
@@ -28,15 +28,9 @@ body {
 }
 
 .containerAboutme {
-    width: 100%;
     background: #FFFFFF;
     display: flex;
     justify-content: space-around;
-}
-
-.textoAboutme{
-    width: auto;
-    height: 400px;
 }
 
 .textoAboutme h1{
@@ -53,22 +47,27 @@ body {
     padding: 0 6.5em;
 }
 
-.containerAboutme img, .containerHabilidades img {
+.containerAboutme img{
     display: flex;
     height: 400px;
     padding: 0 9em 0 0 ;
+    
 }
 
 .containerHabilidades {
-    width: 100%;
     background: #CFE8F6;
     display: flex;
+}
+
+.containerHabilidades img {
+    display: flex;
+    height: 400px;
+    padding: 0 4em 0 3em ; 
 }
 
 .textoHabilidades {
     display: flex;
     width: auto;
-    height: 400px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -78,7 +77,7 @@ body {
     font-weight: bold;
     text-align: center;
     height: 100px;
-    padding: 1.5em 0 0 0;
+    padding: 1.5em 3em 0 0;
 }
 
 .textoHabilidades nav {
@@ -88,7 +87,7 @@ body {
 .textoHabilidades nav ul {
     display: flex;
     flex-flow: column;
-    padding: 1em 2em 2em 0;
+    padding: 1em 4em 2em 0;
 }
 
 .textoHabilidades nav ul li {
@@ -105,6 +104,40 @@ body {
     text-align: left;
     padding: 0 0 1em 0;
     justify-content: left;
+}
+
+.containerCertificacoes {
+    background: #D2EDFB;
+    display: flex;
+}
+
+.containerCertificacoes img {
+    display: flex;
+    height: 400px;
+    padding: 2em 9em 0 5em ;
+    
+}
+
+.containerCertificacoes nav {
+    display: flex;
+    padding: 7em 6em 6em 6em;
+}
+.containerCertificacoes nav ul {
+    display: flex;
+    flex-flow: column;
+}
+
+.containerCertificacoes nav ul h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0 0 2em 0;
+}
+
+.containerCertificacoes nav ul p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0 2em 0;
 }
 
 
