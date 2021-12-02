@@ -8,7 +8,7 @@ body {
     justify-content:flex-end;
     width: 100%;
     text-align: center;
-    background-color: #171A21;
+    background-color: #0A66C2;
     font-weight: bold;
 }
 
@@ -53,8 +53,58 @@ body {
     padding: 0 6.5em;
 }
 
-.containerAboutme img {
+.containerAboutme img, .containerHabilidades img {
     display: flex;
     height: 400px;
     padding: 0 9em 0 0 ;
 }
+
+.containerHabilidades {
+    width: 100%;
+    background: #CFE8F6;
+    display: flex;
+}
+
+.textoHabilidades {
+    display: flex;
+    width: auto;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textoHabilidades h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    height: 100px;
+    padding: 1.5em 0 0 0;
+}
+
+.textoHabilidades nav {
+    display: flex;
+}
+
+.textoHabilidades nav ul {
+    display: flex;
+    flex-flow: column;
+    padding: 1em 2em 2em 0;
+}
+
+.textoHabilidades nav ul li {
+    display: flex;
+    text-align: center;
+    font-weight: 300;
+    padding: 0 0 5px 0;
+}
+
+.textoHabilidades nav ul h2 {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 0 1em 0;
+    justify-content: left;
+}
+
+
