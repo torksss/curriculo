@@ -1,5 +1,5 @@
 body {
-    background-color: #848FA5;
+    background-color: #4A6FA5;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,13 +8,12 @@ body {
     justify-content:flex-end;
     width: 100%;
     text-align: center;
-    background-color: #92c0db;
     font-weight: bold;
 }
 
 .containerHeader a {
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .containerHeader nav ul{
@@ -28,7 +27,7 @@ body {
 }
 
 .containerAboutme {
-    background: #FFFFFF;
+    background: #FCF7F8;
     display: flex;
     justify-content: space-around;
 }
@@ -55,7 +54,6 @@ body {
 }
 
 .containerHabilidades {
-    background: #CFE8F6;
     display: flex;
 }
 
@@ -70,6 +68,7 @@ body {
     width: auto;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: white;
 }
 
 .textoHabilidades h1 {
@@ -107,7 +106,7 @@ body {
 }
 
 .containerCertificacoes {
-    background: #D2EDFB;
+    background: #FCF7F8;
     display: flex;
 }
 
@@ -120,7 +119,7 @@ body {
 
 .containerCertificacoes nav {
     display: flex;
-    padding: 7em 6em 6em 6em;
+    padding: 7em;
 }
 .containerCertificacoes nav ul {
     display: flex;
